@@ -1,0 +1,49 @@
+body{
+    
+    background-color: aqua;
+}
+.container{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.text-field{
+    display: flex;
+}
+
+.text-field input{
+    flex: 1;
+    padding: 10px;
+    border: 10px;
+    border-style:solid;
+    border-color: black;
+    width: 50%;
+}
+button{
+    border-radius: 10px;
+    width: 90px;
+    background-color: coral;
+
+}
+.lis-selection{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.a{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-color: cadetblue;
+    border-style: solid;
+}
+.lis-selection ul li .done{
+    text-decoration: line-through;
+
+}
